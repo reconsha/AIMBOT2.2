@@ -403,6 +403,6 @@ game.StarterGui:SetCore("SendNotification",{
 			Text = "BY RECONSHAMTA😈";
 			Duration = 0.20;
 		})
-return SendNotification
 
 return Environment
+
