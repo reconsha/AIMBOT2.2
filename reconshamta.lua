@@ -6,6 +6,10 @@
 ]]
 
 --// Cache
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "AIMBOT V3",
+    Text = "WORK BY RECONMTA",
+    Duration = 12
 
 local game, workspace = game, workspace
 local getrawmetatable, getmetatable, setmetatable, pcall, getgenv, next, tick = getrawmetatable, getmetatable, setmetatable, pcall, getgenv, next, tick
@@ -399,3 +403,4 @@ Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 setmetatable(Environment, {__call = Load})
 
 return Environment
+
